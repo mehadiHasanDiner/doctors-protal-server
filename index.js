@@ -32,5 +32,8 @@ client.connect(err => {
     })
 });
 
+DB_NAME=doctorsPortal
+DB_USER=doctorMehadi
+DB_PASS=doctors4u
 
 app.listen(process.env.PORT || port)
